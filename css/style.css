@@ -49,8 +49,7 @@ h3{
     --bs-btn-disabled-bg: #ff690d;
     --bs-btn-disabled-border-color: #ff690d;
 }
-
-a.btn-outline-primary {
+.nav.btn-outline-primary {
     --bs-btn-bg: rgba(0, 0, 0, 0.2);
     --bs-btn-color: #ff690d;
     --bs-btn-border-color: #ff690d;
