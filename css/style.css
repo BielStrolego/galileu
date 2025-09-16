@@ -96,7 +96,7 @@ a.btn-outline-primary {
 
 
 .logo{
-  background-image: url('/assets/logo/logo.png');
+  background-image: url('../assets/logo/logo.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ a.btn-outline-primary {
 }
 
 .logo-mobile{
-  background-image: url('/assets/logo/logo.png');
+  background-image: url('../assets/logo/logo.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
