@@ -15,19 +15,19 @@
           <div class="collapse navbar-collapse justify-content-md-center" id="navbar">
             <ul class="navbar-nav">
               <li class="nav-item mt-2 mx-1 d-grid gap-2">
-                <a class="btn btn-outline-primary border-3 fw-bolder" aria-current="page" href="index.html">Inicio</a>
+                <a class="btn btn-dark border-light border-3 fw-bolder" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item mt-2 mx-1 d-grid gap-2">
-                <a class="btn btn-outline-primary border-3 fw-bolder" href="sobre-nos.html">Sobre nós</a>
+                <a class="btn btn-dark border-light border-3 fw-bolder" href="sobre-nos.html">Sobre nós</a>
               </li>
               <li class="nav-item mt-2 mx-1 d-grid gap-2">
-                <a class="btn btn-primary border-3 fw-bolder" href="#">Serviços</a>
+                <a class="btn btn-light border-3 fw-bolder" href="#">Serviços</a>
               </li>
               <li class="nav-item dropdown mt-2 mx-1 d-grid gap-2">
-                <a class="btn btn-outline-primary border-3 fw-bolder dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Equipe</a>
+                <a class="btn btn-dark border-light border-3 fw-bolder dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Catalogo</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown10">
-                  <li><a class="dropdown-item" href="técnicos" id="tecnicos" data-bs-toggle="modal" data-bs-target="#TecModal">Técnicos</a></li>
-                  <li><a class="dropdown-item" href="desenvolvedores" id="Desenvolvedores" data-bs-toggle="modal" data-bs-target="#DevModal">Desenvolvedores</a></li>
+                  <li><a class="dropdown-item" href="notebook.html">Notebooks</a></li>
+                  <li><a class="dropdown-item" href="pc.html">PCs</a></li>
                 </ul>
               </li>
             </ul>
@@ -43,134 +43,592 @@
 
     <div class="d-none" id="conteudo"> 
       <main>
-        <span class="text-center">
-              <h4 class="fw-bold text-light">Serviços</h1>
-        </span>
+        <div class="container text-center">
+              <h4 class="fw-bold text-light mt-2">Serviços</h1>
+        </div>
 
-        <div class="container">
+        <div class="container bg-light shadow rounded-top mt-5 pb-3">
+          <div>
+            <h4 class="fw-bold text-dark pt-2">Infraestrutura para Empresas</h1>
+          </div>
           <div class="row row-cols-1 row-cols-md-3 g-3">
-            <div class="col">
-              <div class="card shadow-sm"> 
-                <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                  <text x="45%" y="50%" fill="#eceeef" dy=".3em">Serviço 1</text>
-                </svg>
-                  <div class="card-body"> 
-                    <p class="card-text">Serviço 1</p>   
+            <a href="#CabeamentoEstruturado" class="link-underline link-underline-opacity-0" id="CabeamentoEstruturado" data-bs-toggle="modal" data-bs-target="#ModalCabeamentoEstruturado">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Cabeamento Estruturado</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Cabeamento Estruturado -->
+            <div class="modal fade modal-style" id="ModalCabeamentoEstruturado" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Cabeamento Estruturado</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
+                  <div class="modal-body">
+                    <p>Projetamos e instalamos toda a estrutura de rede cabeada, com cabos de alta performance (CAT5e, CAT6 ou fibra). 
+                    Isso garante conexões estáveis, rápidas e seguras — fundamentais para empresas que não podem depender de Wi-Fi instável.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
               </div>
             </div>
+            <!-- fim modal Cabeamento Estruturado -->
 
-            <div class="col">
-              <div class="card shadow-sm"> 
-                <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                  <text x="45%" y="50%" fill="#eceeef" dy=".3em">Serviço 2</text>
-                </svg>
-                  <div class="card-body"> 
-                    <p class="card-text">Serviço 2</p>   
+            <a href="#ConfiguraçaoDeEquipamentosDeRede" class="link-underline link-underline-opacity-0" id="ConfiguraçaoDeEquipamentosDeRede" data-bs-toggle="modal" data-bs-target="#ModalConfiguraçaoDeEquipamentosDeRede">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Configuração de Equipamentos de Rede</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Configuração de Equipamentos de Rede -->
+            <div class="modal fade modal-style" id="ModalConfiguraçaoDeEquipamentosDeRede" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Configuração de Equipamentos de Rede</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
+                  <div class="modal-body">
+                    <p>Configuramos roteadores, switches e firewalls para que sua rede esteja protegida, organizada e com performance otimizada. 
+                    Isso melhora a produtividade e evita falhas de conexão e vulnerabilidades.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
               </div>
             </div>
+            <!-- fim modal Configuração de Equipamentos de Rede -->
 
-            <div class="col">
-              <div class="card shadow-sm"> 
-                <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                  <text x="45%" y="50%" fill="#eceeef" dy=".3em">Serviço 3</text>
-                </svg>
-                  <div class="card-body"> 
-                    <p class="card-text">Serviço 3</p>   
+            <a href="#Servidores" class="link-underline link-underline-opacity-0" id="Servidores" data-bs-toggle="modal" data-bs-target="#ModalServidores">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Servidores</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Servidores -->
+            <div class="modal fade modal-style" id="ModalServidores" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Servidores</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
+                  <div class="modal-body">
+                    <p>Montamos e configuramos servidores locais para arquivos, usuários, segurança e serviços internos. 
+                    Isso traz mais controle sobre os dados e agilidade nos processos internos da empresa.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
               </div>
             </div>
+            <!-- fim modal Servidores -->
+
+            <a href="#EstacoesDeTrabalhoEPerifericos" class="link-underline link-underline-opacity-0" id="EstacoesDeTrabalhoEPerifericos" data-bs-toggle="modal" data-bs-target="#ModalEstacoesDeTrabalhoEPerifericos">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Estações de Trabalho e Periféricos</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Estações de Trabalho e Periféricos -->
+            <div class="modal fade modal-style" id="ModalEstacoesDeTrabalhoEPerifericos" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Estações de Trabalho e Periféricos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Formatamos, preparamos e deixamos todos os computadores prontos para uso com os softwares e configurações certas. 
+                    Isso reduz retrabalho e acelera a operação da equipe.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fim modal Estações de Trabalho e Periféricos -->
+
+            <a href="#VendaEInstalacaoDeEquipamentos" class="link-underline link-underline-opacity-0" id="VendaEInstalacaoDeEquipamentos" data-bs-toggle="modal" data-bs-target="#ModalVendaEInstalacaoDeEquipamentos">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Venda e Instalação de Equipamentos</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Venda e Instalação de Equipamentos -->
+            <div class="modal fade modal-style" id="ModalVendaEInstalacaoDeEquipamentos" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Venda e Instalação de Equipamentos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Vendemos e instalamos os equipamentos ideais para o seu tipo de negócio. 
+                    Isso evita compras erradas, desperdício de dinheiro e melhora o desempenho da empresa desde o primeiro dia.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fim modal Venda e Instalação de Equipamentos -->
+
+            <a href="#SuporteTecnicoEManutencao" class="link-underline link-underline-opacity-0" id="SuporteTecnicoEManutencao" data-bs-toggle="modal" data-bs-target="#ModalSuporteTecnicoEManutencao">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Suporte Técnico e Manutenção</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Suporte Técnico e Manutenção -->
+            <div class="modal fade modal-style" id="ModalSuporteTecnicoEManutencao" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Suporte Técnico e Manutenção</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Oferecemos suporte remoto e presencial, além de manutenção preventiva. 
+                    Isso reduz o tempo parado (downtime) e garante que tudo funcione com continuidade e segurança.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fim modal Suporte Técnico e Manutenção -->
+
           </div>
+        </div>
 
-          <div class="row row-cols-1 row-cols-md-3 g-3 mt-2">
-            <div class="col">
-              <div class="card shadow-sm"> 
-                <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                  <text x="45%" y="50%" fill="#eceeef" dy=".3em">Serviço 4</text>
-                </svg>
-                  <div class="card-body"> 
-                    <p class="card-text">Serviço 4</p>   
-                  </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm"> 
-                <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                  <text x="45%" y="50%" fill="#eceeef" dy=".3em">Serviço 5</text>
-                </svg>
-                  <div class="card-body"> 
-                    <p class="card-text">Serviço 5</p>   
-                  </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm"> 
-                <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                  <text x="45%" y="50%" fill="#eceeef" dy=".3em">Serviço 6</text>
-                </svg>
-                  <div class="card-body"> 
-                    <p class="card-text">Serviço 6</p>   
-                  </div>
-              </div>
-            </div>
+        <div class="container bg-light shadow mt-2 pb-3">
+          <div>
+            <h4 class="fw-bold text-dark pt-2">Sistemas</h1>
           </div>
+          <div class="row row-cols-1 row-cols-md-3 g-3">
 
-          <div class="row row-cols-1 row-cols-md-3 g-3 mt-2">
-            <div class="col">
-              <div class="card shadow-sm"> 
-                <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                  <text x="45%" y="50%" fill="#eceeef" dy=".3em">Serviço 7</text>
-                </svg>
-                  <div class="card-body"> 
-                    <p class="card-text">Serviço 7</p>   
+            <a href="#PDVVendas" class="link-underline link-underline-opacity-0" id="PDVVendas" data-bs-toggle="modal" data-bs-target="#ModalPDVVendas">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">PDV e Vendas</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal PDV e Vendas -->
+            <div class="modal fade modal-style" id="ModalPDVVendas" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">PDV e Vendas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
+                  <div class="modal-body">
+                    <p>Sistemas de Frente de Caixa modernos com emissão de nota fiscal, controle de estoque e integração com balanças e impressoras. 
+                    Agiliza o atendimento e profissionaliza o ponto de venda.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
               </div>
             </div>
+            <!-- fim modal PDV e Vendas -->
 
-            <div class="col">
-              <div class="card shadow-sm"> 
-                <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                  <text x="45%" y="50%" fill="#eceeef" dy=".3em">Serviço 8</text>
-                </svg>
-                  <div class="card-body"> 
-                    <p class="card-text">Serviço 8</p>   
+            <a href="#GestaoEmpresarial" class="link-underline link-underline-opacity-0" id="GestaoEmpresarial" data-bs-toggle="modal" data-bs-target="#ModalGestaoEmpresarial">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Gestão Empresarial</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Gestão Empresarial -->
+            <div class="modal fade modal-style" id="ModalGestaoEmpresarial" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Gestão Empresarial</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
+                  <div class="modal-body">
+                    <p>ERPs completos para micro e pequenas empresas, com controle de vendas, compras, clientes, fornecedores e financeiro. 
+                    Permite decisões mais inteligentes com base em dados reais.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
               </div>
             </div>
+            <!-- fim modal Gestão Empresarial -->
 
-            <div class="col">
-              <div class="card shadow-sm"> 
-                <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c"></rect>
-                  <text x="45%" y="50%" fill="#eceeef" dy=".3em">Serviço 9</text>
-                </svg>
-                  <div class="card-body"> 
-                    <p class="card-text">Serviço 9</p>   
+            <a href="#SistemasPersonalizados" class="link-underline link-underline-opacity-0" id="SistemasPersonalizados" data-bs-toggle="modal" data-bs-target="#ModalSistemasPersonalizados">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Sistemas Personalizados</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Sistemas Personalizados -->
+            <div class="modal fade modal-style" id="ModalSistemasPersonalizados" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Sistemas Personalizados</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
+                  <div class="modal-body">
+                    <p>Criamos sistemas sob medida para empresas com necessidades específicas. 
+                    Você ganha mais controle e produtividade com um sistema que se adapta 100% ao seu negócio.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
               </div>
             </div>
+            <!-- fim modal Sistemas Personalizados -->
+
+            <a href="#LicenciamentoERevenda" class="link-underline link-underline-opacity-0" id="LicenciamentoERevenda" data-bs-toggle="modal" data-bs-target="#ModalLicenciamentoERevenda">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Licenciamento e Revenda</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Licenciamento e Revenda -->
+            <div class="modal fade modal-style" id="ModalLicenciamentoERevenda" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Licenciamento e Revenda</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Trabalhamos com sistemas de terceiros como MarketUP, Bling, entre outros. 
+                    Ajudamos na escolha, implantação e treinamento. Economia de tempo com soluções prontas e confiáveis.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fim modal Licenciamento e Revenda -->
+
+            <a href="#HospedagemESuporteTecnico" class="link-underline link-underline-opacity-0" id="HospedagemESuporteTecnico" data-bs-toggle="modal" data-bs-target="#ModalHospedagemESuporteTecnico">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Hospedagem e Suporte Técnico</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Hospedagem e Suporte Técnico -->
+            <div class="modal fade modal-style" id="ModalHospedagemESuporteTecnico" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Hospedagem e Suporte Técnico</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Hospedamos seus sistemas em servidores seguros na nuvem, com backup automático e suporte completo. 
+                    Isso garante estabilidade, escalabilidade e tranquilidade para o empresário.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fim modal Hospedagem e Suporte Técnico -->
+
+            <a href="#PowerApps" class="link-underline link-underline-opacity-0" id="PowerApps" data-bs-toggle="modal" data-bs-target="#ModalPowerApps">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Power Apps (Microsoft)</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Power Apps -->
+            <div class="modal fade modal-style" id="ModalPowerApps" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Power Apps (Microsoft)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Criamos soluções personalizadas com Power Apps da Microsoft, permitindo desenvolver aplicativos empresariais sob medida, com agilidade, sem a necessidade de programação complexa. 
+                    Ideal para automatizar processos internos, conectar sistemas e modernizar a operação.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fim modal Power Apps -->
+
           </div>
+        </div>
 
+        <div class="container bg-light rounded-bottom shadow mt-2 pb-3">
+          <div>
+            <h4 class="fw-bold text-dark pt-2">Automação & Novas Tecnologias</h1>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-3">
+
+            <a href="#AutomacaoDeProcessos" class="link-underline link-underline-opacity-0" id="AutomacaoDeProcessos" data-bs-toggle="modal" data-bs-target="#ModalAutomacaoDeProcessos">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Automação de Processos</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Automação de Processos -->
+            <div class="modal fade modal-style" id="ModalAutomacaoDeProcessos" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Automação de Processos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Automatizamos tarefas repetitivas com plataformas como N8N. Reduz custos operacionais, acelera entregas e elimina erros humanos.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fim modal Automação de Processos -->
+
+            <a href="#BotsEAssistentesVirtuais" class="link-underline link-underline-opacity-0" id="BotsEAssistentesVirtuais" data-bs-toggle="modal" data-bs-target="#ModalBotsEAssistentesVirtuais">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Bots e Assistentes Virtuais</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Bots e Assistentes Virtuais -->
+            <div class="modal fade modal-style" id="ModalBotsEAssistentesVirtuais" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Bots e Assistentes Virtuais</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Criamos chatbots para WhatsApp, Instagram e sites, capazes de atender clientes 24h por dia. 
+                    Isso aumenta o número de vendas e melhora o atendimento sem precisar contratar mais pessoas.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fim modal Bots e Assistentes Virtuais -->
+
+            <a href="#ComputacaoemNuvem" class="link-underline link-underline-opacity-0" id="ComputacaoemNuvem" data-bs-toggle="modal" data-bs-target="#ModalComputacaoemNuvem">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Computação em Nuvem</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Computação em Nuvem -->
+            <div class="modal fade modal-style" id="ModalComputacaoemNuvem" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Computação em Nuvem</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Migramos e gerenciamos sistemas na nuvem, como Google Cloud, AWS e outros. Isso permite acesso remoto, escalabilidade e segurança de nível empresarial.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fim modal Computação em Nuvem -->
+
+            <a href="#RPA" class="link-underline link-underline-opacity-0" id="RPA" data-bs-toggle="modal" data-bs-target="#ModalRPA">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">RPA (Automação Robótica de Processos)</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal RPA -->
+            <div class="modal fade modal-style" id="ModalRPA" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">RPA (Automação Robótica de Processos)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Desenvolvemos bots que executam tarefas humanas em sistemas antigos (sem API). Isso libera a equipe de trabalhos repetitivos e aumenta a produtividade.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fim modal RPA -->
+
+            <a href="#SolucoesComIA" class="link-underline link-underline-opacity-0" id="SolucoesComIA" data-bs-toggle="modal" data-bs-target="#ModalSolucoesComIA">
+              <div class="col">
+                <div class="card text-bg-dark shadow-sm"> 
+                  <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img card-img-top" height="225" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c"></rect>
+                  </svg>
+                    <div class="card-body"> 
+                      <p class="card-text text-light">Soluções com IA</p>   
+                    </div>
+                </div>
+              </div>
+            </a>
+            <!-- modal Soluções com IA -->
+            <div class="modal fade modal-style" id="ModalSolucoesComIA" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Soluções com IA</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Aplicamos soluções com IA, como geração de relatórios automáticos, atendimento com ChatGPT, classificação de dados e mais. 
+                    A empresa toma decisões mais rápidas, inteligentes e com menos esforço humano.</p>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-dark my-2" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fim modal Soluções com IA -->
+
+          </div>     
         </div>
 
 
@@ -179,49 +637,14 @@
 
       <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 my-4 border-top"> 
           <div class="col-md-4 d-flex align-items-center"> 
-              <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Company, Inc</span> 
+              <span class="mb-3 mb-md-0 text-secondary">© 2025 Galileu Soluções, Inc</span> 
           </div> 
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> 
               <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#instagram"></use></svg></a></li>
               <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li> 
           </ul> 
       </footer>
-    </div>
-
-    <!-- modal tecnico -->
-    <div class="modal fade modal-style" id="TecModal" tabindex="-1" aria-labelledby="ModalLabelTec" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title subtitulo-style">Tecnicos</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-
-          </div>
-          <div class="text-center">
-            <button type="button" class="btn btn-primary my-2" data-bs-dismiss="modal">Fechar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- modal desenvolvedor -->
-    <div class="modal fade modal-style" id="DevModal" tabindex="-1" aria-labelledby="ModalLabelDev" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title subtitulo-style">Desenvolvedores</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-
-          </div>
-          <div class="text-center">
-            <button type="button" class="btn btn-primary my-2" data-bs-dismiss="modal">Fechar</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    </div>    
     
 </body>
     <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
